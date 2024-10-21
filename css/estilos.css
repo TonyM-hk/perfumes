@@ -1,0 +1,364 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    }
+    #nosotros,#componentes,#blog{
+        background-color: rgb(233, 233, 233);
+        padding: 30px 0 90px 0;
+    }
+    #videos, #videojuegos{
+        padding: 10px 0 170px 0;
+    }
+    header{
+        background: linear-gradient( rgba(148, 0, 0, 0.62),rgba(134, 132, 132, 0.5)),url(img/portada.jpg);
+        background-size: cover;
+        display: inline-block;
+        width: 100%;
+    }
+    header .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+        display: flex;
+    }
+    
+    header ul{
+        display: flex;
+    }
+    ul li{
+        list-style: none;
+        margin: 15px;
+    }
+    header ul li{
+        list-style: none;
+        margin: 15px;
+        
+    }
+    .logo{
+        color: rgba(255, 136, 136, 0.835);
+        font-size: 40px;
+        font-weight: 500;
+        margin-top: 22px;
+      
+    
+    }
+    .container{
+        max-width: 1800px;
+        width: 95%;
+        margin: auto;
+    }
+    nav ul li a{
+        color:white;
+        font-size: 25px;
+        font-weight: 200;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    nav ul li a:hover{
+        color:  rgba(255, 136, 136, 0.835);
+        font-size: 26px;
+    }
+    .menu{
+        background: #525050;
+        height: 85px;
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+    }
+    #title-container-flex{
+        display: flex;
+        justify-content: center;
+        margin-top: 18vh;
+        margin-bottom: 18vh;
+        width: 100%;
+    }
+    h1{
+        font-size: 60px;
+        color:white;
+        margin: 0;
+        font-weight: 400;
+    
+    }
+    h2{
+        font-size: 25px;
+        color: white;
+        font-weight: 400;
+    }
+    .title-container{
+        text-align: center;
+    }
+    .title-container a, #nosotros a,#blog a,#contacto input[type="submit"]{
+        font-size: 20px;
+        color: black;
+        background:  #5D1B23;
+        padding: 14px 24px;
+        width: 128px;
+        display: inline-block;
+        text-transform: uppercase;
+        font-weight: 600;
+        border-radius: 4px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .title-container a:hover ,#blog a:hover,#nosotros a:hover {
+    background-color: #5d1b23c4;
+    }
+    /* /SECCION NOSOTROS/ */
+    h3{
+        text-align: center;
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .nosotros-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nosotros-image{
+        width: 105%;
+    }
+    .nosotros-image img{
+        width: 95%;
+    }
+    .nosotros-text{
+        text-align: justify;
+        width: 45%;
+    }
+
+    /* /videojuegos/ */
+    .juegos-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #videojuegos .item{
+        width: 28%;
+        text-align: center;
+    }
+    #videojuegos ul li{
+        list-style: none;
+    }
+    #videojuegos ul li:nth-child(2){
+        font-weight: bold;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    #videojuegos ul li:nth-child(3){
+        font-size: 19px;
+        line-height: 31px;
+    }
+    #videojuegos ul li i{
+        font-size: 80px;
+        margin-bottom: 15px;
+        color: rgb(48, 45, 245);
+    }
+    /* /COMPONENTES/ */
+    .componentes-container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: white;
+        margin-bottom: 15px;
+    }
+    .componente{
+        width: 24%;
+        padding: 34px 30px 38px 30px;
+        border-radius: 10px;
+        margin-bottom: 40px;
+        position: block;
+        background: linear-gradient( rgba(101, 0, 0, 0.209),rgba(236, 129, 129, 0.733));
+        box-shadow: 0 12px 30px 0 rgba(100, 1, 1, 0.812);
+    }
+    .photo{
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+    }
+    .componente h4{
+        font-size: 30px;
+        margin: 20px;
+        color: black;
+        text-align: center;
+    }
+    .componente p{
+        margin-bottom: 20px;
+        height: 70px;
+        color: rgb(44,44,44);
+        font-size: 18px;
+        text-align: justify;
+    }
+    .componente a{
+        float: right;
+        font-size: 30px;
+        color: rgba(255, 255, 255, 0.774);
+        margin-top: 30px;
+    }
+    /*VIDEOS*/
+    button.owl-prev{
+        font-size: 60px !important;
+    }
+    button.owl-next{
+        font-size: 60px !important;
+    }
+    span{
+        color: black;
+        
+    }
+    .owl-carousel{
+        height: 170px !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /*BLOG*/
+    .publication-container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .publication{
+        width: 30%;
+        box-shadow: 1px 1px 14px #cccc;
+    }
+    #blog img{
+        width: 100%;
+    }
+    .content{
+        background: white;
+        padding: 20px;
+    }
+    #blog h4{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    #blog p{
+        color: gray;
+        line-height: 24px;
+        font-size: 16px;
+        text-align: justify;
+    }
+    #blog a{
+        width: 125px;
+        margin-left: 135px;
+    }
+    #blog a i{
+        font-size: 24px;
+        margin-left: 15px;
+    }
+    /*CONTACTO*/
+    #contacto form{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 77%;
+        margin: auto;
+    }
+    input[type="text"], input[type="email"]{
+        width: 45%;
+        margin-bottom: 15px;
+        padding: 18px;
+        border: 0;
+        border-bottom: 2px solid rgb(183, 235, 248);
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+    }
+    #contacto textarea{
+    padding: 18px 0;
+    border: 0;
+    border-bottom: 2px solid rgb(183, 235, 248);
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    }
+    #contacto input[type="submit"]{
+        width: 230px;
+        margin: auto;
+        border: 0;
+        box-shadow: rgb(0, 0,0,1.22)0px 2px 6px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+    .contacto-info{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+    .contacto-info i{
+        vertical-align: middle;
+        margin-right: 10px;
+       
+    }
+    .contacto-info p{
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .mail i{
+        font-size: 28px;
+        color: blue;
+    }
+    .whatsapp i{
+        font-size: 34px;
+        color: green;
+    }
+    /*CONTACTO*/
+    footer{
+        background: #5D1B23;
+        padding: 40px 0;
+        text-align: center;
+        margin-top: 40px;
+    }
+    footer .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    footer i{
+        font-size: 50px;
+        margin: 0 40px;
+    }
+    footer i:hover{
+        transform: rotate(360deg);
+        transition: 0.4s;
+    }
+    footer .fa-facebook-square{
+        color: #4267b2;
+        font-size: 54px;
+    }
+    footer .fa-twitter-square{
+        color: #1DA1F2;
+        font-size: 54px;
+    }
+    footer .fa-instagram{
+        background: radial-gradient(circle farthest-corner at 35% 100%, #fec564, transparent 50%),
+        radial-gradient(circle farthest-corner at 10% 140%, #feda7e, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+        radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+        linear-gradient(#6559ca, #bc318f 30%, #e42e66 50%, #fa5332 70%, #ffdc80 100%);
+         color: #fff;
+         border-radius: 40px;
+    }
+    footer .fa-whatsapp{
+        background: green;
+        color: white;
+        border-radius: 5px;
+    }
+    footer p{
+        color: white;
+        margin-top: 40px;
+        font-size: 22px;
+        
+    }
+    .login{
+        text-align:justify;
+      
+    }
